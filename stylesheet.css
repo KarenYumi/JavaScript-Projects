@@ -1,0 +1,23 @@
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+h1{
+  margin-left: 50px;
+  margin-bottom: 50px;;
+}
+html{
+  margin: 50px;
+}
+p{
+  font-size: 18px;
+  margin:25px;
+}
+span{
+  border: 2px black solid;
+  border-radius: 120px;
+  padding: 10px;
+  margin:5px;
+}
