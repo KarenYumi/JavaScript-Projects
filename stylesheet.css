@@ -5,11 +5,11 @@
   font-style: normal;
 }
 h1{
-  margin-left: 50px;
   margin-bottom: 50px;;
 }
 html{
   margin: 50px;
+  max-width: 1000px;
 }
 p{
   font-size: 18px;
@@ -85,3 +85,17 @@ button{
   min-height: 15px;
 }
 
+#relogio{
+  width: 70px;
+  border: 2px black solid;
+  border-radius: 120px;
+  padding: 10px 30px 10px 30px;
+  margin:20px;
+  min-height: 15px;
+  font-size:large;
+}
+
+#imagem{
+  width: 100px;
+  transition: transform 0.7s ease-in-out;
+}
