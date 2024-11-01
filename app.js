@@ -49,3 +49,28 @@ function calcularMedia() {
   document.getElementById("resultado").innerText = `Média: ${media.toFixed(2)} - Conceito: ${conceito}`;
 }
 
+
+
+function ordenarNomes() {
+  // Obtém o valor do campo de entrada
+  const nomesTexto = document.getElementById("nomesInput").value;
+
+  // Converte os nomes em um array, removendo espaços e dividindo por vírgula
+  const nomesArray = nomesTexto.split(",").map(nome => nome.trim().toUpperCase());
+
+  // Ordena os nomes em ordem ascendente
+  nomesArray.sort();
+
+  // Obtém o elemento da lista onde os nomes serão exibidos
+  const listaNomes = document.getElementById("listaNomes");
+
+  // Limpa qualquer conteúdo anterior na lista
+  listaNomes.innerHTML = "";
+
+  // Adiciona cada nome como um item da lista
+  nomesArray.forEach(nome => {
+      const item = document.createElement("li");
+      item.textContent = nome;
+      listaNomes.appendChild(item);
+  });
+}

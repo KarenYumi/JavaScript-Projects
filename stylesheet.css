@@ -13,7 +13,7 @@ html{
 }
 p{
   font-size: 18px;
-  margin:25px;
+  margin:25px 25px 25px 0px;
 }
 span{
   border: 2px black solid;
@@ -21,3 +21,67 @@ span{
   padding: 10px;
   margin:5px;
 }
+
+#resultado{
+  border: 2px black solid;
+  border-radius: 120px;
+  padding: 10px 50px 10px 50px;
+  margin:20px;
+  max-width: 300px;
+  min-height: 15px;
+}
+.media{
+  margin-top: 50px;
+}
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #cccccc;
+  border-radius: 8px;
+  width: 50px;
+  box-sizing: border-box;
+}
+  input:focus {
+    border-color: #5b9bd5;
+    outline: none;
+    box-shadow: 0 0 5px rgba(91, 155, 213, 0.5);
+  }
+
+button{
+  margin-left: 30px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #cccccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+  button:hover {
+    border-color: #a3a3e0;
+    outline: none;
+    background-color: #a3a3e0;
+  }
+  button:active {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transform: translateY(3px); /* Move o botão ligeiramente para baixo */
+}
+#Nomes{
+  margin: 50px 50px 50px 0px;
+}
+.nomes-ordenados {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+#listaNomes{
+  display: inline-block;
+  list-style-type: none;
+  max-width: 100px;
+  border: 2px black solid;
+  border-radius: 120px;
+  padding: 10px 50px 10px 50px;
+  margin:20px;
+  max-width: 300px;
+  min-height: 15px;
+}
+
