@@ -1,0 +1,99 @@
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+body{
+  background-color: rgb(255, 255, 255);
+ /*background-image: url('images/potery3.jpeg');
+  background-size: 100% ;
+  background-repeat: no-repeat;*/
+  min-height:100%;
+}
+.cabecalho{
+  display: flex;
+  align-items: center;
+  margin: 0;
+  height:80px;
+  position:fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  background-color:rgb(237, 237,237);
+  z-index: 10;
+}
+#nome{
+  flex: 0 0 auto;
+  padding-right: 30px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  
+}
+.Menu {
+  flex: 0 0 auto;
+  display: flex;
+  font-size: 18px;
+  justify-content: center; /* Centraliza os itens no eixo horizontal */
+  align-items: center; /* Centraliza no eixo vertical (se necessário) */
+}
+.Menu-items {
+  flex: 1 1 auto;
+  display: flex; /* Adiciona flex para o alinhamento interno */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+}
+.menu-link {
+  margin-right: 30px;
+  margin-left: 40px;
+  text-decoration: none;
+  color: rgb(121, 99, 59);
+}
+.menu-link:hover {
+  border-bottom: solid rgb(121, 99, 59) 3px;
+  cursor: pointer;
+}
+
+.button-login{
+  border-radius: 20px;
+  border: solid rgb(121, 99, 59) 2px;
+  padding: 10px 10px;
+  margin: 10px 20px ;
+  cursor:pointer;
+  color:rgb(121, 99, 59);
+  text-decoration: none;
+}
+.button-login:hover{
+  background-color: rgb(244, 244, 244);
+  opacity: 0.8;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+#imagem-capa{
+  width:100%;
+  top:0;
+ 
+}
+
+
+.rodape{
+  height: 200px;
+  width: 100%;
+  background-color: rgb(236, 233, 228);
+  bottom: 0;
+  padding: 50px;
+  padding-left: 90px;
+  
+}
+
+
